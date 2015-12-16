@@ -24,7 +24,7 @@ void print_max(const string & filename) {
 
     ifstream infile(filename);
     // - this file will be closed by the object's destructor when the
-    //   `ifstream` exists scope (i.e. when this function returns)
+    //   `ifstream` exists scope (i.e. when this function returns).
 
     Point<T,SIZE> p, pmax;
 
