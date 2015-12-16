@@ -4,7 +4,7 @@
  * ------------------------------------------------------------------------- */
 
 /**
- * A class representing a point in n-dimensional space.
+ * A class representing a point in n-dimensional space
  *
  *
  * Notes:
