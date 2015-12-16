@@ -29,7 +29,7 @@ $(TARGET): $(SRC) $(wildcard *.h)
 	$(CXX) $(CXXFLAGS) $(SRC) -o $@
 
 # -----------------------------------------------------------------------------
-# .PHONY: new-input
+# .PHONY: new-input.
 # 
 # new-input:
 # 	od -An -t d1 -N100 /dev/random  | perl -p -e 's/\s*([+-]?[\d.]+(e[+-]\d+)?)\s*/\1\n/g' > input-int-1.txt
